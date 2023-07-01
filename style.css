@@ -1,0 +1,66 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.player {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.player-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.player-score {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.player-current-box {
+    margin-bottom: 10px;
+}
+
+.player-current-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.player-current-score {
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+}
+
+.dice {
+    margin-top: 30px;
+    margin-left: 580px;
+}
+
+.btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #005A80;
+}
